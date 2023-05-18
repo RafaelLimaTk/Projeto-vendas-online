@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
-export interface CreateUserDto {
+export interface User {
+  id: number;
   name: string;
   phone: string;
   cpf: string;
