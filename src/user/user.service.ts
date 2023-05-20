@@ -5,7 +5,7 @@ import { Repository } from 'typeorm';
 
 import { CreateUserDto } from './DTOs/createUser.dto';
 
-import { UserEntity } from './interfaces/user.entity';
+import { UserEntity } from './entities/user.entity';
 
 import { hash } from 'bcrypt';
 
